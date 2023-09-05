@@ -22,4 +22,99 @@ Le logiciel WordPress en lui-même est gratuit, ce qui devient payant, c'est la 
 - WordPress.org, est le logiciel WordPress gratuit et open source que vous pouvez installer sur votre propre hébergent ou même ordinateur.
 - WordPress.com, est la partie commerciale de WordPress, Elle est reliée à WordPress, car elle l'utilise. Wordpress.com propose en plus de la plupart des fonctionnalités de wordpr4ess.org quelques nouvelles fonctionnalités comme : une bande passant non-réguler, un domaine gratuit pour un an, etc.
 
+## Procédure d’installation de WordPress sur une Machine physique
 
+
+```bash
+sudo apt install apache2 mysql-server php-mysql libapache2-mod-php8.1
+```
+Installer les prérequis pour lamp Linux apache, MySQL et PHP.
+
+
+```bash
+sudo apt install lynx w3m
+```
+Installer un navigateur dans le terminal pour permettre le bon fonctionnement d'apache.
+
+
+```bash
+cd /etc/apache2/sites-enabled
+```
+Se rendre dans le dossier.
+
+
+```bash
+sudo mysql
+```
+Lancement de MySQL pour créer la base de donnée.
+
+```SQL
+CREATE database wordpress;
+```
+Crée la base de donnée pour WordPress.
+
+```SQL
+USE wordpress;
+```
+Choisir la base de donnée à utiliser pour les prochaines action.
+
+```SQL
+CREATE user 'wordpress'@'%' IDENTIFIED by 'wordpress';
+```
+Crée l'utilisateur **wordpress** avec le mot de passe *wordpress*.
+
+```SQL
+GRANT all on wordpress.* to 'wordpress'@'%';
+```
+Donner à l'utilisateur **wordpress** la permission pour modifier la base de donner *wordpress*.
+
+```SQL
+FLUSH PRIVILEGES;
+```
+Activer les privilèges pour l'utilisateur **wordpress**.  
+
+<br>
+<br>
+
+Télécharger le package WordPress sur [wordpress.com](https://wordpress.org/). L'extraire dans le dossier téléchargement. 
+```bash
+cd /var/www/html
+sudo mv ~/Downloads/wordpress .
+```
+Accéder à [http://localhost/wordpress/](http://localhost/wordpress/). Suivre les informations de connexion fournie par WordPress avec votre mot de passe et votre nom d'utilisateur, dans mon cas **wordpress**.
+
+Et voilà, vous avez installé WordPress !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Procédure d’installation de WordPress sur une VM distante
