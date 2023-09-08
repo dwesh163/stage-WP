@@ -141,3 +141,7 @@ sudo mv ~/Downloads/wordpress .
 Accéder à *l'url de votre serveur/wordpress* et suivez les informations de connexion fournie par WordPress avec votre mot de passe et votre nom d'utilisateur, dans mon cas **wordpress**.
 
 Et voilà, vous avez installé WordPress !
+
+![image](https://github.com/dwesh163/stage-WP/assets/142376542/fee5effc-8c78-4a52-b40b-42a5998fdb84)
+
+
