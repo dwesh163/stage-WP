@@ -145,3 +145,24 @@ Et voilà, vous avez installé WordPress !
 ![image](https://github.com/dwesh163/stage-WP/assets/142376542/fee5effc-8c78-4a52-b40b-42a5998fdb84)
 
 
+## Docker 
+
+#### Docker c'est quoi ?
+
+Docker est une plateforme de conteneur qui a vu le jour en 2013 et qui a largement contribué à la conteneurisation. Elle permet de créer facilement des conteneurs et des applications basées sur les conteneurs. Docker n'est pas la seule plateforme de conteneur, mais elle est l'une des plus utilisées. Elle est plus facile à utiliser et à déployer que ses concurrentes.
+
+En plus de sa facilité d'exécution, c'est une solution open source, sécurisée et économique. De nombreux entreprises et individus contribuent au développement de ce projet. Un large écosystème de produits, de services et de ressources est développé par cette vaste communauté.
+
+#### conteneurisation vs virtualisation
+
+##### virtualisation : 
+
+La virtualisation est le fait de recréer un système d'exploitation complet et indépendant. Chaque machine virtuelle a sa propre OS, ses pilotes, etc. Cela signifie que la virtualisation offre une isolation complète entre la machine physique et la machine virtuelle, mais elle est plus gourmande en ressources, car chaque machine virtuelle doit inclure un système d'exploitation complet.
+
+##### conteneurisation : 
+
+La conteneurisation est le fait de partager la machine en gardant le même noyau d'OS et évitant ainsi la duplication des ressources. Chaque conteneur est une instance isolée d'une application avec ses propres bibliothèques et dépendances, mais elle n'a pas besoin d'un système d'exploitation complet. Cela la rend plus légère en termes de ressources par rapport à la virtualisation.
+
+
+
+En résumé, la virtualisation isole les systèmes d'exploitation complets dans des machines virtuelles, tandis que la conteneurisation isole des applications individuelles dans des conteneurs légers. Chaque solution a ses avantages et ses inconvénients.
