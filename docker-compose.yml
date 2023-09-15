@@ -1,10 +1,10 @@
 version: '3'
 services:
   db:
-    image: mysql:5.7
-    container_name: mysql
+    image: mysql:8
+    container_name: stagewp_mysql
     volumes:
-      - db_data:/var/lib/mysql
+      - ./db_data:/var/lib/mysql
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: somewordpress
@@ -15,8 +15,10 @@ services:
   wordpress:
     depends_on:
       - db
-    image: wordpress:latest
-    container_name: wordpress
+    image: wordpress:6
+    container_name: stagewp_wordpress
+    volumes:
+      - ./wp_data:/var/www/html
     ports:
       - "8000:80"
     restart: always
@@ -25,7 +27,3 @@ services:
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_NAME: wordpress
-
-
-volumes:
-  db_data: {}
