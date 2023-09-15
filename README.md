@@ -166,3 +166,5 @@ La conteneurisation est le fait de partager la machine en gardant le même noyau
 
 
 En résumé, la virtualisation isole les systèmes d'exploitation complets dans des machines virtuelles, tandis que la conteneurisation isole des applications individuelles dans des conteneurs légers. Chaque solution a ses avantages et ses inconvénients.
+
+![Screenshot from 2023-09-15 10-16-46](https://github.com/dwesh163/stage-WP/assets/142376542/b67afd25-b26b-484a-a4c0-645a351e2941)
