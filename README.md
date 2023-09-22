@@ -181,6 +181,50 @@ Et voilà WordPress est installé avec docker
 
 #### Mon déploiement en production est-il en tout point similaire à celui sur mon ordinateur ?
 
-Oui, car se sont des packages docker qui sont facilement utilisable de partout
+Oui, car se sont des packages docker qui sont facilement utilisable partout
+
+## Wordpress@EPFL
+
+## Alternative a WordPress
+- Wix : l'alternative la plus populaire Affiliation.
+- Squarespace : Meilleure alternative globale.
+- Shopify : Meilleure alternative pour le e-commerce.
+
+##  licence, prix et modèle commercial
+#### wordpress est diviser en 2 filière 
+- [wordpress.org](https://wordpress.org) est le logiciel WordPress gratuit et open source qui gère le système de site web
+- [wordpress.com](https://wordpress.com) est la partie commerciale de WordPress, Elle est reliée à WordPress, car elle l'utilise.
+
+## Site Connu qui utilise wordpress
+- [EPFL.ch](https://EPFL.ch/)
+- [thewaltdisneycompany.com](https://thewaltdisneycompany.com/)
+- [whitehouse.gov](https://www.whitehouse.gov/)
+- [www.bbc.com](https://www.bbc.com/)
+- [www.renaultgroup.com](https://www.renaultgroup.com/)
+- [LVMH.fr](https://www.lvmh.fr/)
+
+
+## Avantages et inconvénients de WordPress
+
+#### Quels sont les Avantages de WordPress ?
+
+- Le logiciel est open-source et gratuit.
+- Il est adaptable, de sorte que vous pouvez créer n'importe quel type de site Web.
+- Il est facile à apprendre et il existe une vaste communauté.
+- Vous pouvez mettre à jour et étendre votre site web à l'aide de thèmes et de plugins.
+
+#### Quels sont les inconvénients de WordPress ?
+
+- WordPress peut être lourd. 
+- L'assistance WordPress est un forum.
+- WordPress présente des risques de sécurité.
+
+## WordPress est-il un bon choix pour l’EPFL
+
+Oui, car il permet créer des gros sites très facilement avec beaucoup de contenu et en respectant la charte graphique de l'EPFL. Il permet grâce à la charte d'uniformiser les sites de toutes les facultés et il est assez simple  pour tous les collaborateurs de créer un site web.
+
+## Bilan du stage
+
+Durant ce stage j'ai apris a connaitre wordpress et son fonctionnement. j'ai aussi apris a travailler sur une WM distante en SSH. J'ai découvert Docker que je conaissait pas du tout avant et que je trouve très utile. J'ai bien aimé la partie docker et mois bien aimer la partie WordPress@EPFL.
 
 
