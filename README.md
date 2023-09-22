@@ -225,6 +225,6 @@ Oui, car il permet créer des gros sites très facilement avec beaucoup de conte
 
 ## Bilan du stage
 
-Durant ce stage j'ai apris a connaitre wordpress et son fonctionnement. j'ai aussi apris a travailler sur une WM distante en SSH. J'ai découvert Docker que je conaissait pas du tout avant et que je trouve très utile. J'ai bien aimé la partie docker et mois bien aimer la partie WordPress@EPFL.
+Durant ce stage, j'ai appris à connaitre WordPress et son fonctionnement. J'ai aussi appris à travailler sur une WM distante en SSH. J'ai découvert Docker que je ne connaissais pas du tout avant et que je trouve très utile. J'ai bien aimé la partie docker et moins bien aimer la partie WordPress@EPFL.
 
 
